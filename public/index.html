@@ -344,7 +344,7 @@
                 <div class="col-lg-6">
 
                     <!-- Call Me Form -->
-                    <form id="callMeForm" data-toggle="validator" data-focus="false">
+                    <form id="callMeForm" data-toggle="validator" data-focus="false" action="http://localhost:3000/test" method="POST">
                         <div class="form-group">
                             <input type="text" class="form-control-input" id="lname" name="lname" required>
                             <label class="label-control" for="lname">Name</label>
@@ -363,9 +363,9 @@
                         <div class="form-group">
                             <select class="form-control-select" id="lselect" required>
                                 <option class="select-option" value="" disabled selected>Interested in...</option>
-                                <option class="select-option" value="Off The Ground">Personal Masks</option>
-                                <option class="select-option" value="Accelerated Growth">Company Masks</option>
-                                <option class="select-option" value="Market Domination">Family Masks</option>
+                                <option class="select-option" value="Personal Masks">Personal Masks</option>
+                                <option class="select-option" value="Company Masks">Company Masks</option>
+                                <option class="select-option" value="Family Masks">Family Masks</option>
                             </select>
                             <div class="help-block with-errors"></div>
                         </div>
@@ -568,5 +568,6 @@
     <script src="js/isotope.pkgd.min.js"></script> <!-- Isotope for filter -->
     <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
     <script src="js/scripts.js"></script> <!-- Custom scripts -->
+    <script src="js/submitDocuments.js"></script>
 </body>
 </html>
