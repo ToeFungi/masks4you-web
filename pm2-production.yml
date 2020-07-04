@@ -1,0 +1,4 @@
+apps:
+    - name: "masks4you"
+      script: "npm"
+      args: "run start"

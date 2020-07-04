@@ -1,0 +1,5 @@
+apps:
+    - name: "masks4you-dev"
+      script: "npm"
+      args: "run start"
+      watch: [ "public" ]
